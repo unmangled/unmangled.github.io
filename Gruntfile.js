@@ -354,9 +354,10 @@ module.exports = function (grunt) {
 
     'gh-pages': {
       options: {
-        base: 'dist'
+        base: 'dist',
+        branch: 'master'
       },
-      src: ['**']
+      src: '**/*'
     },
 
     // Test settings
