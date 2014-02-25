@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('unmangledClientApp', [
+angular.module('unmangledWebsiteApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
